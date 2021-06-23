@@ -1,4 +1,4 @@
-Copyright (c) 2021 YuvarajVelumani82
+# Copyright (c) 2021 YuvarajVelumani82
 cmake_minimum_required(VERSION 3.5)
 
 project(sampleqtgui)
