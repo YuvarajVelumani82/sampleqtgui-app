@@ -31,7 +31,7 @@ Window {
 
             visible: !valueSource.mainScreen
 
-            //AnimatedImage { id: animation; anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter; source: "qrc:/images/loading.png";}
+            //AnimatedImage { id: animation; anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter; source: "qrc:/images/loading.gif";}
             AnimatedImage { id: animation; anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter; source: "qrc:/images/sample.png";}
         }
 
