@@ -29,7 +29,7 @@ Item {
         Image {
             id: image1
             anchors.fill: parent
-            fillMode: Image.PreserveAspectFit
+            fillMode: Image.Stretch
             source: "qrc:/images/menu.png"
         }
 
@@ -48,7 +48,7 @@ Item {
         Image {
             id: image2
             anchors.fill: parent
-            fillMode: Image.PreserveAspectFit
+            fillMode: Image.Stretch
             source: "qrc:/images/menu.png"
         }
 

@@ -7,7 +7,6 @@
         <file>CenterMenu.qml</file>
         <file>images/main.png</file>
         <file>images/menu.png</file>
-        <file>images/sample.png</file>
         <file>images/loading.webp</file>
         <file>images/processing.webp</file>
     </qresource>

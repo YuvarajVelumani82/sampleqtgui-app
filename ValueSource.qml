@@ -196,7 +196,7 @@ Item {
             value: true
         }
         PauseAnimation {
-            duration: 3000
+            duration: 4000
         }
         // Right Center Menu Processing
         PropertyAction {
@@ -205,7 +205,7 @@ Item {
             value: true
         }
         PauseAnimation {
-            duration: 2500
+            duration: 3500
         }
         //////////////////////////////////////////////////////////
         PropertyAction {

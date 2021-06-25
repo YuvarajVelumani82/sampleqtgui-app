@@ -30,7 +30,7 @@ Item {
         y: 5
         width: 135
         height: 25
-        color: "#fd480a"
+        color: "#cb1c21"
         radius: 10
         anchors.bottom: headerBorder.top
         anchors.bottomMargin: 0
@@ -81,7 +81,7 @@ Item {
         id:infoRight
         width: 135
         height: 25
-        color: "#fd480a"
+        color: "#cb1c21"
         radius: 10
         anchors.bottom: headerBorder.top
         anchors.bottomMargin: 0
@@ -119,7 +119,7 @@ Item {
         id: obj2Left
         width: 30
         height: 25
-        color: "#dc3c05"
+        color: "#963441"
         radius: 10
         anchors.right: mainMiddle.left
         anchors.rightMargin: -15
@@ -132,7 +132,7 @@ Item {
         id: obj2Right
         width: 30
         height: 25
-        color: "#dc3c05"
+        color: "#963441"
         radius: 10
         anchors.top: parent.top
         anchors.topMargin: 0
@@ -187,7 +187,7 @@ Item {
         id: obj1Left
         width: 30
         height: 25
-        color: "#dc3c05"
+        color: "#963441"
         radius: 10
         anchors.top: parent.top
         anchors.topMargin: 0
@@ -224,7 +224,7 @@ Item {
         id: obj1Right
         width: 30
         height: 25
-        color: "#dc3c05"
+        color: "#963441"
         radius: 10
         anchors.top: parent.top
         anchors.topMargin: 0

@@ -217,7 +217,7 @@ Item {
         id:mainMiddle
         width: 460
         height: 25
-        color: "#f92828"
+        color: "#cb1c21"
         radius: 10
         anchors.top: headerBorder.bottom
         anchors.topMargin: 0
@@ -242,14 +242,14 @@ Item {
             State {
                 name: "showLong"; when: sliderMain.showInfo == 2;
                 PropertyChanges { target: mainMiddle;height:230; }
-                PropertyChanges { target: obj1Left;color: "#911414"; }
-                PropertyChanges { target: obj1Right;color: "#911414";}
+                PropertyChanges { target: obj1Left;color: "#963441"; }
+                PropertyChanges { target: obj1Right;color: "#963441"; }
                 PropertyChanges { target: mainMiddleText;text: qsTr("Information Detailed");}
             },
             State {
                 name: "showShort"; when: sliderMain.showInfo == 1;
-                PropertyChanges { target: obj1Left;color: "#911414"; }
-                PropertyChanges { target: obj1Right;color: "#911414";}
+                PropertyChanges { target: obj1Left;color: "#963441"; }
+                PropertyChanges { target: obj1Right;color: "#963441"; }
             }
         ]
     }
