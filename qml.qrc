@@ -5,10 +5,10 @@
         <file>ValueSource.qml</file>
         <file>BottomMenu.qml</file>
         <file>CenterMenu.qml</file>
-        <file>images/processing.gif</file>
-        <file>images/loading.gif</file>
         <file>images/main.png</file>
         <file>images/menu.png</file>
         <file>images/sample.png</file>
+        <file>images/loading.webp</file>
+        <file>images/processing.webp</file>
     </qresource>
 </RCC>

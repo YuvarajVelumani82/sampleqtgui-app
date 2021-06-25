@@ -33,7 +33,7 @@ Item {
             source: "qrc:/images/menu.png"
         }
 
-        AnimatedImage { id: leftAnimation; anchors.fill: parent; visible: leftSplash; source: "qrc:/images/processing.gif";}
+        AnimatedImage { id: leftAnimation; anchors.fill: parent; visible: leftSplash; source: "qrc:/images/processing.webp";}
     }
 
     Rectangle {
@@ -52,7 +52,7 @@ Item {
             source: "qrc:/images/menu.png"
         }
 
-        AnimatedImage { id: rightAnimation; anchors.fill: parent; visible: rightSplash; source: "qrc:/images/processing.gif";}
+        AnimatedImage { id: rightAnimation; anchors.fill: parent; visible: rightSplash; source: "qrc:/images/processing.webp";}
     }
 
     Rectangle {
