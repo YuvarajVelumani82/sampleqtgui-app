@@ -1,7 +1,7 @@
-import QtQuick 2.12
-import QtQuick.Window 2.12
-import QtQuick.Controls 2.12
-import QtQuick.Layouts 1.3
+import QtQuick 2.15
+import QtQuick.Window 2.15
+//import QtQuick.Controls 2.12
+//import QtQuick.Layouts 1.3
 
 
 Window {
@@ -12,6 +12,7 @@ Window {
     color: "#000000"
     title: qsTr("sampleqtgui")
     flags: Qt.Window | Qt.FramelessWindowHint
+
     Item {
         id: mainWindow
         width: 800
@@ -30,7 +31,8 @@ Window {
 
             visible: !valueSource.mainScreen
 
-            AnimatedImage { id: animation; anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter; source: "qrc:/images/loading.gif";}
+            //AnimatedImage { id: animation; anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter; source: "qrc:/images/loading.png";}
+            AnimatedImage { id: animation; anchors.horizontalCenter: parent.horizontalCenter; anchors.verticalCenter: parent.verticalCenter; source: "qrc:/images/sample.png";}
         }
 
         Item {

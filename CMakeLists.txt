@@ -23,10 +23,17 @@ find_package(Qt5Core)
 find_package(Qt5Gui)
 find_package(Qt5Qml)
 find_package(Qt5Quick)
+find_package(Qt5Multimedia)
+find_package(Qt5::QGifPlugin)
+find_package(Qt5::QJpegPlugin)
 
 target_link_libraries(${PROJECT_NAME}
-    Qt5::Core Qt5::Gui Qt5::Qml Qt5::Quick
+    Qt5::Core Qt5::Gui Qt5::Qml Qt5::Quick Qt5::Multimedia
 )
+
+qt_import_plugins(${PROJECT_NAME
+    INCLUDE_BY_TYPE imageformats Qt5::QGifPlugin Qt5::QJpegPlugin
+) 
 
 install(
   TARGETS ${PROJECT_NAME}

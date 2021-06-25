@@ -1,4 +1,4 @@
-import QtQuick 2.2
+import QtQuick 2.15
 
 Item {
     id:valueSource
@@ -456,5 +456,4 @@ Item {
             value: false
         }
     }
-
 }

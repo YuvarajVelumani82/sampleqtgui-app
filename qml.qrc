@@ -9,5 +9,6 @@
         <file>images/loading.gif</file>
         <file>images/main.png</file>
         <file>images/menu.png</file>
+        <file>images/sample.png</file>
     </qresource>
 </RCC>
