@@ -31,9 +31,10 @@ Item {
             anchors.fill: parent
             fillMode: Image.Stretch
             source: "qrc:/images/menu.png"
+            visible: !leftSplash
         }
 
-        AnimatedImage { id: leftAnimation; anchors.fill: parent; visible: leftSplash; source: "qrc:/images/processing.webp";}
+        AnimatedImage { id: leftAnimation; anchors.centerIn: parent; visible: leftSplash; source: "qrc:/images/processing.webp";}
     }
 
     Rectangle {
@@ -50,9 +51,10 @@ Item {
             anchors.fill: parent
             fillMode: Image.Stretch
             source: "qrc:/images/menu.png"
+            visible: !rightSplash
         }
 
-        AnimatedImage { id: rightAnimation; anchors.fill: parent; visible: rightSplash; source: "qrc:/images/processing.webp";}
+        AnimatedImage { id: rightAnimation; anchors.centerIn: parent; visible: rightSplash; source: "qrc:/images/processing.webp";}
     }
 
     Rectangle {
